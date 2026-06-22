@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A211BBBF2FE8D4B900FBEA9C /* ZipCartWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A211BBBE2FE8D4B900FBEA9C /* ZipCartWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A211BBC02FE8D4B900FBEA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A211BBB22FE8D4B900FBEA9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A211BBBD2FE8D4B900FBEA9C;
+			remoteInfo = "ZipCartWatch Watch App";
+		};
+		A211BBCE2FE8D4BA00FBEA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A211BBB22FE8D4B900FBEA9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A211BBBD2FE8D4B900FBEA9C;
+			remoteInfo = "ZipCartWatch Watch App";
+		};
+		A211BBD82FE8D4BA00FBEA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A211BBB22FE8D4B900FBEA9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A211BBBD2FE8D4B900FBEA9C;
+			remoteInfo = "ZipCartWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A211BBE42FE8D4BA00FBEA9C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A211BBBF2FE8D4B900FBEA9C /* ZipCartWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A211BBB82FE8D4B900FBEA9C /* ZipCartWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipCartWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A211BBBE2FE8D4B900FBEA9C /* ZipCartWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZipCartWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A211BBCD2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZipCartWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A211BBD72FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZipCartWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A211BBC22FE8D4B900FBEA9C /* ZipCartWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZipCartWatch Watch App";
+			sourceTree = "<group>";
+		};
+		A211BBD02FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZipCartWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A211BBDA2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZipCartWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A211BBEE2FE8D53E00FBEA9C /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A211BBF12FE8D5C300FBEA9C /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A211BBF42FE8D5FD00FBEA9C /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A211BBF82FE8D64000FBEA9C /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A211BBBB2FE8D4B900FBEA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBCA2FE8D4BA00FBEA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBD42FE8D4BA00FBEA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A211BBB12FE8D4B900FBEA9C = {
+			isa = PBXGroup;
+			children = (
+				A211BBC22FE8D4B900FBEA9C /* ZipCartWatch Watch App */,
+				A211BBD02FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests */,
+				A211BBDA2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests */,
+				A211BBB92FE8D4B900FBEA9C /* Products */,
+				A211BBEE2FE8D53E00FBEA9C /* Models */,
+				A211BBF12FE8D5C300FBEA9C /* ViewModels */,
+				A211BBF42FE8D5FD00FBEA9C /* Components */,
+				A211BBF82FE8D64000FBEA9C /* Views */,
+			);
+			sourceTree = "<group>";
+		};
+		A211BBB92FE8D4B900FBEA9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A211BBB82FE8D4B900FBEA9C /* ZipCartWatch.app */,
+				A211BBBE2FE8D4B900FBEA9C /* ZipCartWatch Watch App.app */,
+				A211BBCD2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests.xctest */,
+				A211BBD72FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A211BBB72FE8D4B900FBEA9C /* ZipCartWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A211BBE52FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch" */;
+			buildPhases = (
+				A211BBB62FE8D4B900FBEA9C /* Resources */,
+				A211BBE42FE8D4BA00FBEA9C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A211BBC12FE8D4B900FBEA9C /* PBXTargetDependency */,
+			);
+			name = ZipCartWatch;
+			packageProductDependencies = (
+			);
+			productName = ZipCartWatch;
+			productReference = A211BBB82FE8D4B900FBEA9C /* ZipCartWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A211BBBD2FE8D4B900FBEA9C /* ZipCartWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A211BBE12FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch Watch App" */;
+			buildPhases = (
+				A211BBBA2FE8D4B900FBEA9C /* Sources */,
+				A211BBBB2FE8D4B900FBEA9C /* Frameworks */,
+				A211BBBC2FE8D4B900FBEA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A211BBC22FE8D4B900FBEA9C /* ZipCartWatch Watch App */,
+				A211BBEE2FE8D53E00FBEA9C /* Models */,
+				A211BBF12FE8D5C300FBEA9C /* ViewModels */,
+				A211BBF42FE8D5FD00FBEA9C /* Components */,
+				A211BBF82FE8D64000FBEA9C /* Views */,
+			);
+			name = "ZipCartWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "ZipCartWatch Watch App";
+			productReference = A211BBBE2FE8D4B900FBEA9C /* ZipCartWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A211BBCC2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A211BBE82FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch Watch AppTests" */;
+			buildPhases = (
+				A211BBC92FE8D4BA00FBEA9C /* Sources */,
+				A211BBCA2FE8D4BA00FBEA9C /* Frameworks */,
+				A211BBCB2FE8D4BA00FBEA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A211BBCF2FE8D4BA00FBEA9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A211BBD02FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests */,
+			);
+			name = "ZipCartWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "ZipCartWatch Watch AppTests";
+			productReference = A211BBCD2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A211BBD62FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A211BBEB2FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch Watch AppUITests" */;
+			buildPhases = (
+				A211BBD32FE8D4BA00FBEA9C /* Sources */,
+				A211BBD42FE8D4BA00FBEA9C /* Frameworks */,
+				A211BBD52FE8D4BA00FBEA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A211BBD92FE8D4BA00FBEA9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A211BBDA2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests */,
+			);
+			name = "ZipCartWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "ZipCartWatch Watch AppUITests";
+			productReference = A211BBD72FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A211BBB22FE8D4B900FBEA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A211BBB72FE8D4B900FBEA9C = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A211BBBD2FE8D4B900FBEA9C = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A211BBCC2FE8D4BA00FBEA9C = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = A211BBBD2FE8D4B900FBEA9C;
+					};
+					A211BBD62FE8D4BA00FBEA9C = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = A211BBBD2FE8D4B900FBEA9C;
+					};
+				};
+			};
+			buildConfigurationList = A211BBB52FE8D4B900FBEA9C /* Build configuration list for PBXProject "ZipCartWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A211BBB12FE8D4B900FBEA9C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A211BBB92FE8D4B900FBEA9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A211BBB72FE8D4B900FBEA9C /* ZipCartWatch */,
+				A211BBBD2FE8D4B900FBEA9C /* ZipCartWatch Watch App */,
+				A211BBCC2FE8D4BA00FBEA9C /* ZipCartWatch Watch AppTests */,
+				A211BBD62FE8D4BA00FBEA9C /* ZipCartWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A211BBB62FE8D4B900FBEA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBBC2FE8D4B900FBEA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBCB2FE8D4BA00FBEA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBD52FE8D4BA00FBEA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A211BBBA2FE8D4B900FBEA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBC92FE8D4BA00FBEA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211BBD32FE8D4BA00FBEA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A211BBC12FE8D4B900FBEA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A211BBBD2FE8D4B900FBEA9C /* ZipCartWatch Watch App */;
+			targetProxy = A211BBC02FE8D4B900FBEA9C /* PBXContainerItemProxy */;
+		};
+		A211BBCF2FE8D4BA00FBEA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A211BBBD2FE8D4B900FBEA9C /* ZipCartWatch Watch App */;
+			targetProxy = A211BBCE2FE8D4BA00FBEA9C /* PBXContainerItemProxy */;
+		};
+		A211BBD92FE8D4BA00FBEA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A211BBBD2FE8D4B900FBEA9C /* ZipCartWatch Watch App */;
+			targetProxy = A211BBD82FE8D4BA00FBEA9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A211BBDF2FE8D4BA00FBEA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A211BBE02FE8D4BA00FBEA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A211BBE22FE8D4BA00FBEA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ZipCartWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trios2026DC.ZipCartWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		A211BBE32FE8D4BA00FBEA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ZipCartWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trios2026DC.ZipCartWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		A211BBE62FE8D4BA00FBEA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				INFOPLIST_KEY_CFBundleDisplayName = ZipCartWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trios2026DC.ZipCartWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A211BBE72FE8D4BA00FBEA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				INFOPLIST_KEY_CFBundleDisplayName = ZipCartWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trios2026DC.ZipCartWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A211BBE92FE8D4BA00FBEA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trios2026DC.ZipCartWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZipCartWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZipCartWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		A211BBEA2FE8D4BA00FBEA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trios2026DC.ZipCartWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZipCartWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZipCartWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		A211BBEC2FE8D4BA00FBEA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trios2026DC.ZipCartWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ZipCartWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		A211BBED2FE8D4BA00FBEA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4Z83M865H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trios2026DC.ZipCartWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ZipCartWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A211BBB52FE8D4B900FBEA9C /* Build configuration list for PBXProject "ZipCartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211BBDF2FE8D4BA00FBEA9C /* Debug */,
+				A211BBE02FE8D4BA00FBEA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A211BBE12FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211BBE22FE8D4BA00FBEA9C /* Debug */,
+				A211BBE32FE8D4BA00FBEA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A211BBE52FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211BBE62FE8D4BA00FBEA9C /* Debug */,
+				A211BBE72FE8D4BA00FBEA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A211BBE82FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211BBE92FE8D4BA00FBEA9C /* Debug */,
+				A211BBEA2FE8D4BA00FBEA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A211BBEB2FE8D4BA00FBEA9C /* Build configuration list for PBXNativeTarget "ZipCartWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211BBEC2FE8D4BA00FBEA9C /* Debug */,
+				A211BBED2FE8D4BA00FBEA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A211BBB22FE8D4B900FBEA9C /* Project object */;
+}
